@@ -50,6 +50,7 @@ SASS has a couple different formats - SASS and SCSS. SASS format removes the sem
 
 Check out the [guide on the SASS website](https://sass-lang.com/guide) for an overview on what SASS can do. In a nutshell, we can use it to enable CSS to work with variables, nesting, inheritance, partials, mixins, and operators. 
 
+| The thing  | What it does |
 | -------- | ----------------------------------------------- |
 |`Variables`| Declare something for use at a later time, like in our example above.|
 |`Nesting`| We can put the relevant code inside the parent instead of having to write a long queryselector.|
