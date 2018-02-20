@@ -6,10 +6,12 @@ var flash = require('connect-flash');
 var isLoggedIn = require('./middleware/isLoggedIn');
 var passport = require('./config/passportConfig');
 var session = require('express-session');
+var sass = require('node-sass');
 var app = express();
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(__dirname + '/public/'));
 app.use(ejsLayouts);
 app.use(session({
   secret: process.env.SESSION_SECRET,
