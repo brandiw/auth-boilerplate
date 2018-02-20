@@ -40,7 +40,7 @@ SASS has a couple different formats - SASS and SCSS. SASS format removes the sem
     }
     ```
 
-6. Run the command `npm sass` that we added to package.json earlier.
+6. Run the command `npm run-script sass` that we added to package.json earlier.
 
     * Check it out, you should have a style.css in the parent folder now!
 
@@ -50,6 +50,7 @@ SASS has a couple different formats - SASS and SCSS. SASS format removes the sem
 
 Check out the [guide on the SASS website](https://sass-lang.com/guide) for an overview on what SASS can do. In a nutshell, we can use it to enable CSS to work with variables, nesting, inheritance, partials, mixins, and operators. 
 
+| -------- | ----------------------------------------------- |
 |`Variables`| Declare something for use at a later time, like in our example above.|
 |`Nesting`| We can put the relevant code inside the parent instead of having to write a long queryselector.|
 |`Inheritance`| We can extend code from somewhere else.|
